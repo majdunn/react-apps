@@ -1,0 +1,23 @@
+.Footer {
+  margin-top: 10px;
+  text-align: center;
+  grid-column: span 2;
+}
+
+.link {
+    color:purple;
+    font-size: 32px;
+}
+
+.row {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    align-content: center;
+    justify-content: center;
+}
+.column {
+  width: auto;
+  padding: 10px;
+}
+

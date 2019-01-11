@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+html, body {
+  height:100%;
+  margin: 0px;
+  padding: 0;
+} 
+
+body {
+  background-color: white;
+  background-image: url('./assets/papyrus.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Cinzel', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  height:100%;
+}
+
+.button {
+  background-color: rgb(0, 0, 0); 
+  border: 2px solid #fff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.input {
+  border: 2px solid #fff;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

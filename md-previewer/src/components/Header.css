@@ -1,0 +1,7 @@
+.Header {
+    grid-column: span 2;
+}
+h1 {
+    font-size: 7vh; 
+    color: purple; 
+}

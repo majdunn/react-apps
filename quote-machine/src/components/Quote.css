@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+#quote-wrapper {
+    font-family: 'Pacifico', cursive;
+    width: 70%;
+    margin: 20px auto 20px auto;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+#text {
+    font-size: 5vh;
+}
+#author {
+    font-size: 3vh;
+}
+
+#tweet-quote, #new-quote {
+    margin: 10px;
+}

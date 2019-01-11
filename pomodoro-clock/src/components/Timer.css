@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Share+Tech");
+
+.timer-wrapper {
+  text-align: center;
+  margin: auto;
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  box-sizing: border-box;
+  grid-gap: 20px;
+  font-family: "Share Tech", sans-serif;
+  color: green;
+  justify-content: center;
+}
+
+.countdown-wrapper {
+  padding: 10px;
+  grid-column: span 2;
+  border-radius: 50%;
+  display: grid;
+  grid-column: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.setter-wrapper {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  justify-items: center;
+  align-items: center;
+}
+
+#break-label,
+#session-label {
+  grid-column: span 3;
+}
+
+#timer-label,
+#time-left {
+  grid-column: span 2;
+}
+
+#timer-label {
+  font-size: 3em;
+}
+
+.countdown-wrapper button {
+  background-color: green;
+  color: black;
+  border: none;
+  width: 150px;
+  font-size: 3em;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.setter-wrapper button {
+  background-color: black;
+  color: green;
+  border: none;
+}
+
+#time-left {
+  font-size: 8em;
+}
